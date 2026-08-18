@@ -350,9 +350,6 @@ function SectionEyebrow({ icon: Icon, children, tone = "cyan" }) {
   );
 }
 
-/* ---------------------------------------------------------------
-   Main App
---------------------------------------------------------------- */
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSkill, setActiveSkill] = useState(SKILL_GROUPS[0].key);
